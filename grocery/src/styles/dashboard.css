@@ -1,0 +1,39 @@
+
+.revenue__box, .order__box,
+.product__box, .user__box {
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.revenue__box {
+    background :linear-gradient( rgb(190, 186, 186),rgb(73, 70, 70));
+
+}
+
+.order__box {
+    background: linear-gradient(to bottom, #40E0D0, #000080);
+}
+
+.product__box {
+    background: linear-gradient(to bottom, #FFA500, #FF0000);
+}
+
+.user__box {
+    background: linear-gradient(to bottom, #DC143C, #FF8C00);
+}
+
+.revenue__box h5, .order__box h5,
+.product__box h5, .user__box h5{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.revenue__box span, .order__box span,
+.product__box span, .user__box span{
+    color: #fff;
+    font-weight: 700;
+    font-size: 2rem;
+}
